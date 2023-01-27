@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gallery with Filtering Using HTML CSS & JavaScript | Keyframe Effects</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	</head>
+<body>
+
+<!-- MAIN -->
+<div class="main">
+
+	<h1>Midjourney AI Generated Images Gallery</h1>
+	<hr>
+	<br>
+
+	<!-- Tabs Button -->
+	<div id="BtnContainer">
+		<button class="btn" onclick="filterSelection('Dress')"> Dress</button>
+		<button class="btn active" onclick="filterSelection('Coffee')"> Coffee Drinker</button>
+		<button class="btn" onclick="filterSelection('Introvert')"> Introvert's Haven</button>
+	</div>
+	<!-- Tabs Button -->
+
+	<!-- Portfolio Gallery Grid -->
+	<div class="row">
+	
+		<!-- Birds column -->
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (1).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (2).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (3).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (4).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (5).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (6).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (7).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (8).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (9).png" alt="Coffee" />
+			</div>
+		</div>
+		<div class="column Coffee">
+			<div class="content">
+				<img src="img/coffee_drinker (10).png" alt="Coffee" />
+			</div>
+		</div>
+		<!-- End Birds column -->
+		
+		<!-- Dress column -->
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (1).png" alt="Dress" />
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (2).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (3).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (4).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (5).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (6).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (7).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (8).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (9).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (10).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (11).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (12).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (13).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (14).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (15).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (16).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (17).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (18).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (19).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (20).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (21).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (22).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (23).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (24).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (25).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (26).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (27).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (28).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (29).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (30).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (31).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (32).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (33).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (34).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (35).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (36).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (37).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (38).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (39).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (40).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (41).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (42).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (43).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (44).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (45).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (46).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (47).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (48).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (49).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (50).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (51).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (52).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (53).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (54).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (55).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (56).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (57).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (58).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (59).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (60).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (61).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (62).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (63).png" alt="Dress" />
+
+			</div>
+		</div>
+		<div class="column Dress">
+			<div class="content">
+				<img src="img/white_dress (64).png" alt="Dress" />
+
+			</div>
+		</div>
+		<!-- End Dress column -->
+	  
+		<!-- Nature column -->
+		<div class="column Introvert">
+			<div class="content">
+				<img src="img/introvert_room (1).png" alt="Introvert" />
+			</div>
+		</div>
+		<div class="column Introvert">
+			<div class="content">
+				<img src="img/introvert_room (2).png" alt="Introvert" />
+			</div>
+		</div>
+		<div class="column Introvert">
+			<div class="content">
+				<img src="img/introvert_room (3).png" alt="Introvert" />
+			</div>
+		</div>
+		<div class="column Introvert">
+			<div class="content">
+				<img src="img/ramen_house (1).png" alt="Introvert" />
+			</div>
+		</div>
+		<div class="column Introvert">
+			<div class="content">
+				<img src="img/ramen_house (2).png" alt="Introvert" />
+			</div>
+		</div>
+		<!-- End Nature column -->
+	
+	</div>
+	<!-- END Portfolio Gallery Grid -->
+
+</div>
+<!-- END MAIN -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
